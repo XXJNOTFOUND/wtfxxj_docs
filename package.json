@@ -1,0 +1,15 @@
+{
+  "name": "wtfxxj-docs",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host 0.0.0.0",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --host 0.0.0.0 --port 4173"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
